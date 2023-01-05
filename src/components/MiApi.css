@@ -54,3 +54,17 @@ body {
   color: white;
 }
 
+.resultados,
+.form-group {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 32px; /* Aumentar el espacio entre los elementos */
+}
+
+.pre-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;                                   
+}
