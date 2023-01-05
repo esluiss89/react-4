@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b83d5e;
+  color: white;
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header input {
+  height: 50px;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 0 16px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.header .logo {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(227, 215, 215);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 50%;
+}
